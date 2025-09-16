@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright, Cookie, TimeoutError as Playwri
 
 def add_server_time(server_url="https://hub.weirdhost.xyz/server/1d308dcb"):
     """
-    尝试登录 hub.weirdhost.xyz 并点击 "시간추가" 按钮。
+    尝试登录 hub.weirdhost.xyz 并点击 "시간 추가" 按钮。
     优先使用 REMEMBER_WEB_COOKIE 进行会话登录，如果不存在则回退到邮箱密码登录。
     此函数设计为每次GitHub Actions运行时执行一次。
     """
