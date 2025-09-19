@@ -107,7 +107,7 @@ def add_server_time(server_url="https://hub.weirdhost.xyz/server/188c50d5"):
                     return False
 
             # --- 核心操作：查找并点击 "시간 추가" 按钮 ---
-            add_button_selector = 'button:has-text("시간 추가")' # 已更新为新的按钮文本
+            add_button_selector = 'button:has-text("추가")'  # 已更新为新的按钮文本
             print(f"正在查找并等待 '{add_button_selector}' 按钮...")
 
             try:
